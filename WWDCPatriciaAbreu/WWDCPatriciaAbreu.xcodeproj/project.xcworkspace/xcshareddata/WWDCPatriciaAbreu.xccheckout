@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>398AA786-32D5-4CCE-8C25-98F4D01A7FC4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WWDCPatriciaAbreu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D7A5DBE75A7F0D5D03CF55AF10962CC8F5C575DB</key>
+		<string>https://github.com/PatriciaAbreu/WWDC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WWDCPatriciaAbreu/WWDCPatriciaAbreu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D7A5DBE75A7F0D5D03CF55AF10962CC8F5C575DB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PatriciaAbreu/WWDC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D7A5DBE75A7F0D5D03CF55AF10962CC8F5C575DB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D7A5DBE75A7F0D5D03CF55AF10962CC8F5C575DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WWDC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
