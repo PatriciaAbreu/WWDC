@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6A012E7F1AE02C6D00E17187 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A012E7E1AE02C6D00E17187 /* Images.xcassets */; };
+		6A012E811AE04BDC00E17187 /* KnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A012E801AE04BDC00E17187 /* KnowledgeViewController.swift */; };
 		6AE083B71ADDA2900083A8CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE083B61ADDA2900083A8CD /* AppDelegate.swift */; };
 		6AE083B91ADDA2900083A8CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE083B81ADDA2900083A8CD /* ViewController.swift */; };
 		6AE083BC1ADDA2900083A8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE083BA1ADDA2900083A8CD /* Main.storyboard */; };
 		6AE083C11ADDA2900083A8CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE083BF1ADDA2900083A8CD /* LaunchScreen.xib */; };
 		6AE083CD1ADDA2900083A8CD /* WWDCPatriciaAbreuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE083CC1ADDA2900083A8CD /* WWDCPatriciaAbreuTests.swift */; };
+		6AF522851AE1637D004A73AD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF522841AE1637D004A73AD /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		6A012E7E1AE02C6D00E17187 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images.xcassets/Images.xcassets; sourceTree = "<group>"; };
+		6A012E801AE04BDC00E17187 /* KnowledgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowledgeViewController.swift; sourceTree = "<group>"; };
 		6AE083B11ADDA2900083A8CD /* WWDCPatriciaAbreu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCPatriciaAbreu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE083B51ADDA2900083A8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE083B61ADDA2900083A8CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		6AE083C61ADDA2900083A8CD /* WWDCPatriciaAbreuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDCPatriciaAbreuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE083CB1ADDA2900083A8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE083CC1ADDA2900083A8CD /* WWDCPatriciaAbreuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCPatriciaAbreuTests.swift; sourceTree = "<group>"; };
+		6AF522841AE1637D004A73AD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 				6AE083B61ADDA2900083A8CD /* AppDelegate.swift */,
 				6AE083B81ADDA2900083A8CD /* ViewController.swift */,
 				6AE083BA1ADDA2900083A8CD /* Main.storyboard */,
+				6A012E801AE04BDC00E17187 /* KnowledgeViewController.swift */,
 				6AE083BF1ADDA2900083A8CD /* LaunchScreen.xib */,
 				6AE083B41ADDA2900083A8CD /* Supporting Files */,
 				6A012E7E1AE02C6D00E17187 /* Images.xcassets */,
+				6AF522841AE1637D004A73AD /* Extensions.swift */,
 			);
 			path = WWDCPatriciaAbreu;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AE083B91ADDA2900083A8CD /* ViewController.swift in Sources */,
+				6A012E811AE04BDC00E17187 /* KnowledgeViewController.swift in Sources */,
 				6AE083B71ADDA2900083A8CD /* AppDelegate.swift in Sources */,
+				6AF522851AE1637D004A73AD /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
