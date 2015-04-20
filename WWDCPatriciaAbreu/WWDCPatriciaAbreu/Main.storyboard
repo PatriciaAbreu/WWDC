@@ -298,9 +298,6 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="canudo" translatesAutoresizingMaskIntoConstraints="NO" id="8Gt-jJ-nMo">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="16" y="441" width="368" height="339"/>
-                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KNOWLEDGE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poO-ap-S0d">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1261,7 +1258,7 @@
         <image name="html" width="1000" height="1000"/>
         <image name="java" width="259" height="259"/>
         <image name="objectiveC" width="100" height="100"/>
-        <image name="profile" width="330" height="331"/>
+        <image name="profile" width="165" height="165"/>
         <image name="swift" width="160" height="101"/>
     </resources>
 </document>
