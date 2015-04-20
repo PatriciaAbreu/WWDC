@@ -9,13 +9,15 @@
 import UIKit
 
 class KnowledgeViewController: UIViewController {
-
+    
+    @IBOutlet weak var imageKnowledge: UIImageView!
+    
     @IBOutlet weak var btnComputerScience: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        setar gradiente no background
+        
+        //        setar gradiente no background
         var gradient: CAGradientLayer = CAGradientLayer()
         var color1: UIColor = UIColor(red: 136/255, green: 129/255, blue: 240/255, alpha: 1)
         var color2: UIColor = UIColor(red: 244, green: 81, blue: 186, alpha: 1)
@@ -24,23 +26,26 @@ class KnowledgeViewController: UIViewController {
         gradient.frame = view.bounds
         view.layer.insertSublayer(gradient, atIndex: 0)
         
-//        btnComputerScience.titleLabel?.numberOfLines = 2
+        imageKnowledge.layer.opacity = 0.8
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    
+    @IBAction func buttonScienceComputer(sender: AnyObject) {
+    }
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
