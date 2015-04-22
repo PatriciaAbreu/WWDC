@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6A012E7F1AE02C6D00E17187 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A012E7E1AE02C6D00E17187 /* Images.xcassets */; };
 		6A012E811AE04BDC00E17187 /* KnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A012E801AE04BDC00E17187 /* KnowledgeViewController.swift */; };
+		6A09719A1AE69E5600CCCCE1 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0971991AE69E5600CCCCE1 /* Math.swift */; };
+		6A09719D1AE6A2A600CCCCE1 /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09719C1AE6A2A600CCCCE1 /* TeacherViewController.swift */; };
+		6A09719F1AE818B300CCCCE1 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09719E1AE818B300CCCCE1 /* StudentViewController.swift */; };
 		6A5F2ECA1AE59F5E00783519 /* ComputerScience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F2EC91AE59F5E00783519 /* ComputerScience.swift */; };
 		6A5F2ECC1AE59F6600783519 /* HtmlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F2ECB1AE59F6600783519 /* HtmlViewController.swift */; };
 		6A5F2ECE1AE59F6C00783519 /* JavaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F2ECD1AE59F6C00783519 /* JavaViewController.swift */; };
@@ -34,10 +37,13 @@
 /* Begin PBXFileReference section */
 		6A012E7E1AE02C6D00E17187 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Images.xcassets/Images.xcassets; sourceTree = "<group>"; };
 		6A012E801AE04BDC00E17187 /* KnowledgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowledgeViewController.swift; sourceTree = "<group>"; };
-		6A5F2EC91AE59F5E00783519 /* ComputerScience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerScience.swift; sourceTree = "<group>"; };
-		6A5F2ECB1AE59F6600783519 /* HtmlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlViewController.swift; sourceTree = "<group>"; };
-		6A5F2ECD1AE59F6C00783519 /* JavaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaViewController.swift; sourceTree = "<group>"; };
-		6A5F2ECF1AE59F7200783519 /* ObjectiveCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectiveCViewController.swift; sourceTree = "<group>"; };
+		6A0971991AE69E5600CCCCE1 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		6A09719C1AE6A2A600CCCCE1 /* TeacherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
+		6A09719E1AE818B300CCCCE1 /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		6A5F2EC91AE59F5E00783519 /* ComputerScience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComputerScience.swift; path = WWDCPatriciaAbreu/ComputerScience.swift; sourceTree = "<group>"; };
+		6A5F2ECB1AE59F6600783519 /* HtmlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HtmlViewController.swift; path = WWDCPatriciaAbreu/HtmlViewController.swift; sourceTree = "<group>"; };
+		6A5F2ECD1AE59F6C00783519 /* JavaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JavaViewController.swift; path = WWDCPatriciaAbreu/JavaViewController.swift; sourceTree = "<group>"; };
+		6A5F2ECF1AE59F7200783519 /* ObjectiveCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectiveCViewController.swift; path = WWDCPatriciaAbreu/ObjectiveCViewController.swift; sourceTree = "<group>"; };
 		6A5F2ED11AE59F8800783519 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6AE083B11ADDA2900083A8CD /* WWDCPatriciaAbreu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCPatriciaAbreu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE083B51ADDA2900083A8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,9 +74,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A0971971AE69E2500CCCCE1 /* ComputerScience */ = {
+			isa = PBXGroup;
+			children = (
+				6A5F2ECF1AE59F7200783519 /* ObjectiveCViewController.swift */,
+				6A5F2ECD1AE59F6C00783519 /* JavaViewController.swift */,
+				6A5F2ECB1AE59F6600783519 /* HtmlViewController.swift */,
+			);
+			name = ComputerScience;
+			sourceTree = "<group>";
+		};
+		6A0971981AE69E3B00CCCCE1 /* Knowledge */ = {
+			isa = PBXGroup;
+			children = (
+				6A5F2EC91AE59F5E00783519 /* ComputerScience.swift */,
+				6A0971991AE69E5600CCCCE1 /* Math.swift */,
+				6A09719B1AE6A27B00CCCCE1 /* Math */,
+				6A0971971AE69E2500CCCCE1 /* ComputerScience */,
+			);
+			name = Knowledge;
+			sourceTree = "<group>";
+		};
+		6A09719B1AE6A27B00CCCCE1 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				6A09719C1AE6A2A600CCCCE1 /* TeacherViewController.swift */,
+				6A09719E1AE818B300CCCCE1 /* StudentViewController.swift */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
 		6AE083A81ADDA2900083A8CD = {
 			isa = PBXGroup;
 			children = (
+				6A0971981AE69E3B00CCCCE1 /* Knowledge */,
 				6AE083B31ADDA2900083A8CD /* WWDCPatriciaAbreu */,
 				6AE083C91ADDA2900083A8CD /* WWDCPatriciaAbreuTests */,
 				6AE083B21ADDA2900083A8CD /* Products */,
@@ -89,10 +126,6 @@
 		6AE083B31ADDA2900083A8CD /* WWDCPatriciaAbreu */ = {
 			isa = PBXGroup;
 			children = (
-				6A5F2ECF1AE59F7200783519 /* ObjectiveCViewController.swift */,
-				6A5F2ECD1AE59F6C00783519 /* JavaViewController.swift */,
-				6A5F2ECB1AE59F6600783519 /* HtmlViewController.swift */,
-				6A5F2EC91AE59F5E00783519 /* ComputerScience.swift */,
 				6AE083B61ADDA2900083A8CD /* AppDelegate.swift */,
 				6AE083B81ADDA2900083A8CD /* ViewController.swift */,
 				6A5F2ED11AE59F8800783519 /* Main.storyboard */,
@@ -232,12 +265,15 @@
 			files = (
 				6AE083B91ADDA2900083A8CD /* ViewController.swift in Sources */,
 				6A5F2ECA1AE59F5E00783519 /* ComputerScience.swift in Sources */,
+				6A09719A1AE69E5600CCCCE1 /* Math.swift in Sources */,
 				6A012E811AE04BDC00E17187 /* KnowledgeViewController.swift in Sources */,
 				6A5F2ECC1AE59F6600783519 /* HtmlViewController.swift in Sources */,
 				6AE083B71ADDA2900083A8CD /* AppDelegate.swift in Sources */,
 				6A5F2ECE1AE59F6C00783519 /* JavaViewController.swift in Sources */,
+				6A09719D1AE6A2A600CCCCE1 /* TeacherViewController.swift in Sources */,
 				6A5F2ED01AE59F7200783519 /* ObjectiveCViewController.swift in Sources */,
 				6AF522851AE1637D004A73AD /* Extensions.swift in Sources */,
+				6A09719F1AE818B300CCCCE1 /* StudentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
