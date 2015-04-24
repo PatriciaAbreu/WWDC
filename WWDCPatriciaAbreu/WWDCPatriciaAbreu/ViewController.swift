@@ -30,28 +30,49 @@ class ViewController: UIViewController {
     @IBAction func tapImage(sender: AnyObject) {
         
         var hobbies: HobbiesViewController = HobbiesViewController()
-    self.performSegueWithIdentifier("hobbies", sender: hobbies)
+        self.performSegueWithIdentifier("hobbies", sender: hobbies)
+        
+        UIView.animateWithDuration(1, animations: { () -> Void in
+            self.imagemP.transform = CGAffineTransformMakeScale(3, 3)
+        })
         
     }
-    
-    
-    @IBAction func tapImageKnowledge(sender: AnyObject) {
-        println("oieee")
-        var knowledge: KnowledgeViewController = KnowledgeViewController()
-        self.performSegueWithIdentifier("knowledge", sender: knowledge)
-    }
-    
     
     @IBAction func tapImagePerfil(sender: AnyObject) {
-        var perfil: ProfileViewController = ProfileViewController()
         
+        var perfil: ProfileViewController = ProfileViewController()
         self.performSegueWithIdentifier("profile", sender: perfil)
+        
+        UIView.animateWithDuration(1, animations: { () -> Void in
+            self.imagemPP.transform = CGAffineTransformMakeScale(3, 3)
+        })
+        
+    }
+
+    
+    @IBAction func tapImageKnowledge(sender: AnyObject) {
+
+        var knowledge: KnowledgeViewController = KnowledgeViewController()
+        self.performSegueWithIdentifier("knowledge", sender: knowledge)
+        
+        UIView.animateWithDuration(1, animations: { () -> Void in
+            self.imagemPPP.transform = CGAffineTransformMakeScale(3, 3)
+        })
+
     }
     
+    
     @IBAction func tapImageExpectations(sender: AnyObject) {
+        
         var expectations: ExpectationsViewController = ExpectationsViewController()
         self.performSegueWithIdentifier("expectations", sender: expectations)
+        
+        UIView.animateWithDuration(1, animations: { () -> Void in
+            self.imagemPPPP.transform = CGAffineTransformMakeScale(3, 3)
+        })
+
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -138,6 +159,8 @@ class ViewController: UIViewController {
 //                }];
 //        }
 //    }
+    
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
