@@ -12,6 +12,8 @@
 		6A09719A1AE69E5600CCCCE1 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0971991AE69E5600CCCCE1 /* Math.swift */; };
 		6A09719D1AE6A2A600CCCCE1 /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09719C1AE6A2A600CCCCE1 /* TeacherViewController.swift */; };
 		6A09719F1AE818B300CCCCE1 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09719E1AE818B300CCCCE1 /* StudentViewController.swift */; };
+		6A4198571AE94FD9007827C2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4198561AE94FD9007827C2 /* ProfileViewController.swift */; };
+		6A4198591AE95645007827C2 /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4198581AE95645007827C2 /* HobbiesViewController.swift */; };
 		6A5F2ECA1AE59F5E00783519 /* ComputerScience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F2EC91AE59F5E00783519 /* ComputerScience.swift */; };
 		6A5F2ECC1AE59F6600783519 /* HtmlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F2ECB1AE59F6600783519 /* HtmlViewController.swift */; };
 		6A5F2ECE1AE59F6C00783519 /* JavaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F2ECD1AE59F6C00783519 /* JavaViewController.swift */; };
@@ -21,6 +23,7 @@
 		6AE083B91ADDA2900083A8CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE083B81ADDA2900083A8CD /* ViewController.swift */; };
 		6AE083C11ADDA2900083A8CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE083BF1ADDA2900083A8CD /* LaunchScreen.xib */; };
 		6AE083CD1ADDA2900083A8CD /* WWDCPatriciaAbreuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE083CC1ADDA2900083A8CD /* WWDCPatriciaAbreuTests.swift */; };
+		6AE55FF41AE98925001BE5C8 /* ExpectationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE55FF31AE98925001BE5C8 /* ExpectationsViewController.swift */; };
 		6AF522851AE1637D004A73AD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF522841AE1637D004A73AD /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +43,8 @@
 		6A0971991AE69E5600CCCCE1 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		6A09719C1AE6A2A600CCCCE1 /* TeacherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
 		6A09719E1AE818B300CCCCE1 /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		6A4198561AE94FD9007827C2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6A4198581AE95645007827C2 /* HobbiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
 		6A5F2EC91AE59F5E00783519 /* ComputerScience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComputerScience.swift; path = WWDCPatriciaAbreu/ComputerScience.swift; sourceTree = "<group>"; };
 		6A5F2ECB1AE59F6600783519 /* HtmlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HtmlViewController.swift; path = WWDCPatriciaAbreu/HtmlViewController.swift; sourceTree = "<group>"; };
 		6A5F2ECD1AE59F6C00783519 /* JavaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JavaViewController.swift; path = WWDCPatriciaAbreu/JavaViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +58,7 @@
 		6AE083C61ADDA2900083A8CD /* WWDCPatriciaAbreuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDCPatriciaAbreuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE083CB1ADDA2900083A8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE083CC1ADDA2900083A8CD /* WWDCPatriciaAbreuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCPatriciaAbreuTests.swift; sourceTree = "<group>"; };
+		6AE55FF31AE98925001BE5C8 /* ExpectationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectationsViewController.swift; sourceTree = "<group>"; };
 		6AF522841AE1637D004A73AD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,9 +133,12 @@
 			isa = PBXGroup;
 			children = (
 				6AE083B61ADDA2900083A8CD /* AppDelegate.swift */,
+				6A4198561AE94FD9007827C2 /* ProfileViewController.swift */,
+				6AE55FF31AE98925001BE5C8 /* ExpectationsViewController.swift */,
 				6AE083B81ADDA2900083A8CD /* ViewController.swift */,
 				6A5F2ED11AE59F8800783519 /* Main.storyboard */,
 				6A012E801AE04BDC00E17187 /* KnowledgeViewController.swift */,
+				6A4198581AE95645007827C2 /* HobbiesViewController.swift */,
 				6AE083BF1ADDA2900083A8CD /* LaunchScreen.xib */,
 				6AE083B41ADDA2900083A8CD /* Supporting Files */,
 				6A012E7E1AE02C6D00E17187 /* Images.xcassets */,
@@ -265,10 +274,13 @@
 			files = (
 				6AE083B91ADDA2900083A8CD /* ViewController.swift in Sources */,
 				6A5F2ECA1AE59F5E00783519 /* ComputerScience.swift in Sources */,
+				6AE55FF41AE98925001BE5C8 /* ExpectationsViewController.swift in Sources */,
 				6A09719A1AE69E5600CCCCE1 /* Math.swift in Sources */,
 				6A012E811AE04BDC00E17187 /* KnowledgeViewController.swift in Sources */,
 				6A5F2ECC1AE59F6600783519 /* HtmlViewController.swift in Sources */,
+				6A4198591AE95645007827C2 /* HobbiesViewController.swift in Sources */,
 				6AE083B71ADDA2900083A8CD /* AppDelegate.swift in Sources */,
+				6A4198571AE94FD9007827C2 /* ProfileViewController.swift in Sources */,
 				6A5F2ECE1AE59F6C00783519 /* JavaViewController.swift in Sources */,
 				6A09719D1AE6A2A600CCCCE1 /* TeacherViewController.swift in Sources */,
 				6A5F2ED01AE59F7200783519 /* ObjectiveCViewController.swift in Sources */,

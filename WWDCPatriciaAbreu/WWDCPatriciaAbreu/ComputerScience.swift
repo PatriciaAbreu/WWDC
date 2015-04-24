@@ -25,7 +25,7 @@ class ComputerScienceViewController: UIViewController {
         //        setar gradiente no background
         var gradient: CAGradientLayer = CAGradientLayer()
         var color1: UIColor = UIColor(red: 136, green: 129, blue: 240, alpha: 1)
-        var color2: UIColor = UIColor(red: 244/255, green: 81/255, blue: 186/255, alpha: 1)
+        var color2: UIColor = UIColor(red: 236/255, green: 4/255, blue: 147/255, alpha: 1)
         
         gradient.colors = [color1.CGColor, color2.CGColor]
         gradient.frame = view.bounds

@@ -19,7 +19,7 @@ class Math: UIViewController {
     override func viewDidLoad() {
         //        setar gradiente no background
         var gradient: CAGradientLayer = CAGradientLayer()
-        var color1: UIColor = UIColor(red: 235/255, green: 78/255, blue: 32/255, alpha: 1)
+        var color1: UIColor = UIColor(red: 251/255, green: 82/255, blue: 8/255, alpha: 1)
         var color2: UIColor = UIColor(red: 244, green: 81, blue: 186, alpha: 1)
         
         gradient.colors = [color1.CGColor, color2.CGColor]
