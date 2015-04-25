@@ -1912,7 +1912,7 @@
                                         <variation key="heightClass=regular-widthClass=compact" constant="350"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Sou brasileira, tenho 24 anos, moro com  meus pais e minha irmã mais velha. Sou aluna de Ciência da Computação pela Universidade Presbiteriana Mackenzie e participo do projeto Bepid - Mack Mobile 2015 . Sou formada em Licenciatura e Bacharelado em Matemática  também pela Universidade  Presbiteriana Mackenzie</string>
+                                <string key="text">I’m brazilian and I’m 24 years old and I live with my mother and father and my old sister.  I study Computer Science at Mackenzie Presbyterian University and participate to the project Bepid - Mack Mobile 2015. I have a bachelor degree in math.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <color key="textColor" red="0.087256763873820212" green="0.51561571847237553" blue="0.45691356898435986" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
