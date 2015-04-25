@@ -898,7 +898,7 @@
                                     <constraint firstAttribute="height" constant="355" id="dlP-nc-THb"/>
                                     <constraint firstAttribute="height" constant="116" id="oqb-TZ-wKw"/>
                                 </constraints>
-                                <string key="text">Quase todos os sites que você conhece foram feitos usando essa linguagem. São tecnologias chave da Internet. O HTML (Hypertext Markup Language) é responsável por organizar e formatar as páginas que visitamos na Internet. CSS (Cascading Style Sheet) é uma linguagem utilizada para definir a apresentação de documentos escritos em linguagens como HTML e XML.</string>
+                                <mutableString key="text">Almost all sites that you know have been developed using these technologies because they are the key Internet technologies. HTML (Hypertext Markup Language) is responsible for organizing and formatting web pages.  CSS (Cascading Style Sheet) is a language used to define the presentation of documents written in languages such as HTML and XML.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.039215686270000001" green="0.34901960780000002" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1022,8 +1022,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="115" id="jlI-E8-OYj"/>
                                 </constraints>
-                                <string key="text">A Computação está em pleno desenvolvimento e possui uma grande área de atuação.  
- Conheço um pouco dessa área.</string>
+                                <string key="text">The technology market is in full development and has a large area of operation. 
+ I already know some of these areas and still want to meet others.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.53305380349999998" green="0.50720326829999995" blue="0.94132263000000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1244,7 +1244,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="272" id="FrB-tC-H4E"/>
                                 </constraints>
-                                <string key="text">Java surgiu a partir da ideia de um grupo de engenheiros e programadores. A ideia do nome provem do nome da cafeteria local da cidade em que esse grupo trabalhava e como bons programadores amavam café, o nome não podia surgir de outro modo. O principal fator dessa linguagem é a independencia de plataforma, isto é, não fica restrito a uma plataforma de um determinado Sistema Operacional </string>
+                                <mutableString key="text">You know the story of the creation of Java? He came up the idea of a group of engineers and programmers. The name comes from the local coffee shop in the city that this group worked and how good programmers loved coffee and the name could not appear otherwise. The main factor of this language is platform independence, that is, is not restricted to a platform of a particular operating system. This is one of the factors that this language is being taught in college. </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.83921568629999999" green="0.0078431372550000003" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1788,7 +1788,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="261" id="Fla-T6-OC3"/>
                                 </constraints>
-                                <string key="text">Provavelmente existe algum aplicativo de jogos, esportes ou de utilidade que você use bastante.  Já parou para pensar como esse aplicativo foi desenvolvido? Essas dúvidas já tive também e estou tendo a oportunidade de solucioná-las participando do projeto Bepid - MackMobile 2015, aprendendo mais sobre iOS e Swift. Objective-C é uma linguagem de programação reflexiva orientada a objetos.</string>
+                                <mutableString key="text">Probably there is a gaming application, or sport utility you use frequently.  Have you ever stopped to think about how these applications were developed? I have already solved these and other similar questions in the project Bepid - MackMobile 2015 learning more about iOS and Swift</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.36470588240000001" green="0.35686274509999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
