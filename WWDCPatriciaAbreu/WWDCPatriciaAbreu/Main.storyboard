@@ -488,7 +488,7 @@
                                         <variation key="heightClass=regular-widthClass=compact" constant="400"/>
                                     </constraint>
                                 </constraints>
-                                <mutableString key="text">Attend an event of this size is the dream of every iOS developer and mine as well. Having the opportunity to watch the lectures and talk to others in the industry will help me broaden my knowledge range. The WWDC is much more than the epicenter of technological innovations and experience exchanges.</mutableString>
+                                <string key="text">Attend an event of this size is the dream of every iOS developer and mine as well. Having the opportunity to watch the lectures and talk to others in the industry will help me broaden my knowledge range. The WWDC is much more than the epicenter of technological innovations and experience exchanges.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" red="0.77021352442761393" green="0.25023362089897988" blue="0.025434061215359158" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1666,7 +1666,7 @@
                                         <variation key="heightClass=regular-widthClass=compact" constant="400"/>
                                     </constraint>
                                 </constraints>
-                                <mutableString key="text">I believe that every student one day asked “What should I learn these math content?” And may have received an answer, “In all your life you use math. You’ll apply in physics, chemistry and others.” It’s king of sickening not really see in practice is not it? An if they showed you an app and speak you that all animations that app involve various math facts? The math could be something more “attractive”. Transform math in a matter that you love isn’t difficult, just study what you most love like games, sports, technology and start paying attention to everything actually involves math and without it we would not have even technologically advanced.</mutableString>
+                                <string key="text">I believe that every student one day asked “What should I learn these math content?” And may have received an answer, “In all your life you use math. You’ll apply in physics, chemistry and others.” It’s king of sickening not really see in practice is not it? An if they showed you an app and speak you that all animations that app involve various math facts? The math could be something more “attractive”. Transform math in a matter that you love isn’t difficult, just study what you most love like games, sports, technology and start paying attention to everything actually involves math and without it we would not have even technologically advanced.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.33279041806999876" blue="0.1377783878510811" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
