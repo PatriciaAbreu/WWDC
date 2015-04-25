@@ -898,7 +898,7 @@
                                     <constraint firstAttribute="height" constant="355" id="dlP-nc-THb"/>
                                     <constraint firstAttribute="height" constant="116" id="oqb-TZ-wKw"/>
                                 </constraints>
-                                <mutableString key="text">Almost all sites that you know have been developed using these technologies because they are the key Internet technologies. HTML (Hypertext Markup Language) is responsible for organizing and formatting web pages.  CSS (Cascading Style Sheet) is a language used to define the presentation of documents written in languages such as HTML and XML.</mutableString>
+                                <string key="text">Almost all sites that you know have been developed using these technologies because they are the key Internet technologies. HTML (Hypertext Markup Language) is responsible for organizing and formatting web pages.  CSS (Cascading Style Sheet) is a language used to define the presentation of documents written in languages such as HTML and XML.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.039215686270000001" green="0.34901960780000002" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1244,7 +1244,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="272" id="FrB-tC-H4E"/>
                                 </constraints>
-                                <mutableString key="text">You know the story of the creation of Java? He came up the idea of a group of engineers and programmers. The name comes from the local coffee shop in the city that this group worked and how good programmers loved coffee and the name could not appear otherwise. The main factor of this language is platform independence, that is, is not restricted to a platform of a particular operating system. This is one of the factors that this language is being taught in college. </mutableString>
+                                <string key="text">You know the story of the creation of Java? He came up the idea of a group of engineers and programmers. The name comes from the local coffee shop in the city that this group worked and how good programmers loved coffee and the name could not appear otherwise. The main factor of this language is platform independence, that is, is not restricted to a platform of a particular operating system. This is one of the factors that this language is being taught in college. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.83921568629999999" green="0.0078431372550000003" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1355,13 +1355,41 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJ1-Tn-a7X">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="dCf-Gx-hW9">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="400"/>
+                                    </constraint>
+                                </constraints>
+                                <string key="text">Do you remember the name of a teacher? And the subject he or she taught? Probably you can answer one or the both questions. It is impossible not to remember at least one teacher, isn’t it? We spent a part of our life more living with them than with our own family. Often teaching us much more than just the matter of school, they helped us build our character. Knowing that I can influence other people’s life by just being myself in a classroom is wonderful and scary at the same time. But it's a wonderful experience to be called teacher in the street! I love this profession!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.33279041809999999" blue="0.13777838789999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="dCf-Gx-hW9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="dCf-Gx-hW9"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="esN-Dr-VGd" secondAttribute="bottom" constant="20" id="5wC-Yt-82x">
                                 <variation key="heightClass=regular-widthClass=compact" constant="190"/>
                             </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="AJ1-Tn-a7X" secondAttribute="trailing" constant="10" id="5y8-IC-QeO"/>
                             <constraint firstItem="esN-Dr-VGd" firstAttribute="leading" secondItem="jKX-CI-L0G" secondAttribute="leadingMargin" id="6sK-Uv-et6"/>
+                            <constraint firstItem="AJ1-Tn-a7X" firstAttribute="top" secondItem="jKX-CI-L0G" secondAttribute="topMargin" constant="180" id="8Mx-eF-uxc">
+                                <variation key="heightClass=regular-widthClass=compact" constant="130"/>
+                            </constraint>
+                            <constraint firstItem="AJ1-Tn-a7X" firstAttribute="top" secondItem="YtC-qd-cne" secondAttribute="bottom" constant="180" id="D9R-BS-5B1"/>
+                            <constraint firstItem="AJ1-Tn-a7X" firstAttribute="leading" secondItem="jKX-CI-L0G" secondAttribute="leadingMargin" constant="10" id="GIl-mC-hcZ"/>
                             <constraint firstItem="esN-Dr-VGd" firstAttribute="trailing" secondItem="jKX-CI-L0G" secondAttribute="trailingMargin" id="Lei-t7-kLu"/>
                             <constraint firstItem="03i-sS-fED" firstAttribute="top" secondItem="jKX-CI-L0G" secondAttribute="topMargin" constant="28" id="bc1-EN-rzQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="03i-sS-fED" secondAttribute="trailing" constant="100" id="lpS-Rg-Nn5"/>
@@ -1372,8 +1400,13 @@
                             <mask key="subviews">
                                 <exclude reference="03i-sS-fED"/>
                                 <exclude reference="esN-Dr-VGd"/>
+                                <exclude reference="AJ1-Tn-a7X"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="5y8-IC-QeO"/>
+                                <exclude reference="8Mx-eF-uxc"/>
+                                <exclude reference="D9R-BS-5B1"/>
+                                <exclude reference="GIl-mC-hcZ"/>
                                 <exclude reference="5wC-Yt-82x"/>
                                 <exclude reference="6sK-Uv-et6"/>
                                 <exclude reference="Lei-t7-kLu"/>
@@ -1387,8 +1420,13 @@
                             <mask key="subviews">
                                 <include reference="03i-sS-fED"/>
                                 <include reference="esN-Dr-VGd"/>
+                                <include reference="AJ1-Tn-a7X"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="5y8-IC-QeO"/>
+                                <include reference="8Mx-eF-uxc"/>
+                                <exclude reference="D9R-BS-5B1"/>
+                                <include reference="GIl-mC-hcZ"/>
                                 <include reference="5wC-Yt-82x"/>
                                 <include reference="6sK-Uv-et6"/>
                                 <include reference="Lei-t7-kLu"/>
@@ -1419,13 +1457,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;A vida é boa por duas coisas: Descobrir matemática e ensinar matemática.&quot;  (Simeón – Denis Poisson)." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3U-yq-P4I">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Life is good because of two reasons: Discover mathematics and teaching mathematics.&quot;  (Simeón – Denis Poisson)." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3U-yq-P4I">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="144" id="dvq-RB-wEF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -1438,14 +1476,13 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDw-md-E3T">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This phrase accompanied me throughout the undergraduate until today. I love studying math and even more learning math." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDw-md-E3T">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="clE-Ca-pug"/>
                                 </constraints>
-                                <string key="text">Essa frase me acompanhou por toda a graduação e me acompanha até hoje.  Amo estudar matemática e mais ainda, amo ensinar matemática.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -1625,9 +1662,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAB-g7-a2c">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="BTm-3M-OqU"/>
+                                    <constraint firstAttribute="height" constant="300" id="BTm-3M-OqU">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="400"/>
+                                    </constraint>
                                 </constraints>
-                                <string key="text">Acredito que todo aluno um dia se perguntou "Para que que eu devo aprender esses conteúdos de Matemática?" e pode ter recebido como resposta "Em tudo na sua vida você usa matemática! Você irá usar na Física, Quimica, na Engenharia também é muito usada". Neste app por exemplo todas as animações de mudança de telas envolvem muitas contas de matemática.  Então acredite quando digo que tudo na sua vida envolve matemática, mesmo se essa matemática não aparece visivel para você. </string>
+                                <mutableString key="text">I believe that every student one day asked “What should I learn these math content?” And may have received an answer, “In all your life you use math. You’ll apply in physics, chemistry and others.” It’s king of sickening not really see in practice is not it? An if they showed you an app and speak you that all animations that app involve various math facts? The math could be something more “attractive”. Transform math in a matter that you love isn’t difficult, just study what you most love like games, sports, technology and start paying attention to everything actually involves math and without it we would not have even technologically advanced.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.33279041806999876" blue="0.1377783878510811" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1667,6 +1706,9 @@
                         <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="BAB-g7-a2c" firstAttribute="leading" secondItem="ikH-rf-U4o" secondAttribute="leadingMargin" id="Gpc-sv-oL1"/>
+                            <constraint firstItem="BAB-g7-a2c" firstAttribute="top" secondItem="ikH-rf-U4o" secondAttribute="topMargin" constant="180" id="O5F-GF-WsT">
+                                <variation key="heightClass=regular-widthClass=compact" constant="140"/>
+                            </constraint>
                             <constraint firstItem="BEv-YI-7Qa" firstAttribute="leading" secondItem="ikH-rf-U4o" secondAttribute="leadingMargin" constant="-16" id="ZpF-HX-v5T"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BEv-YI-7Qa" secondAttribute="trailing" constant="-16" id="dxh-5J-AJn"/>
                             <constraint firstAttribute="bottomMargin" secondItem="BAB-g7-a2c" secondAttribute="bottom" constant="290" id="j5I-Sf-fpo">
@@ -1684,6 +1726,7 @@
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="Gpc-sv-oL1"/>
+                                <exclude reference="O5F-GF-WsT"/>
                                 <exclude reference="j5I-Sf-fpo"/>
                                 <exclude reference="thQ-6A-KTM"/>
                                 <exclude reference="ZpF-HX-v5T"/>
@@ -1700,7 +1743,8 @@
                             </mask>
                             <mask key="constraints">
                                 <include reference="Gpc-sv-oL1"/>
-                                <include reference="j5I-Sf-fpo"/>
+                                <include reference="O5F-GF-WsT"/>
+                                <exclude reference="j5I-Sf-fpo"/>
                                 <include reference="thQ-6A-KTM"/>
                                 <exclude reference="ZpF-HX-v5T"/>
                                 <exclude reference="dxh-5J-AJn"/>
@@ -1788,7 +1832,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="261" id="Fla-T6-OC3"/>
                                 </constraints>
-                                <mutableString key="text">Probably there is a gaming application, or sport utility you use frequently.  Have you ever stopped to think about how these applications were developed? I have already solved these and other similar questions in the project Bepid - MackMobile 2015 learning more about iOS and Swift</mutableString>
+                                <string key="text">Probably there is a gaming application, or sport utility you use frequently.  Have you ever stopped to think about how these applications were developed? I have already solved these and other similar questions in the project Bepid - MackMobile 2015 learning more about iOS and Swift</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.36470588240000001" green="0.35686274509999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
