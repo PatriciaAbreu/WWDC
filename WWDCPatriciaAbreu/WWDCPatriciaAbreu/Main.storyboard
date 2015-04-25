@@ -488,7 +488,7 @@
                                         <variation key="heightClass=regular-widthClass=compact" constant="400"/>
                                     </constraint>
                                 </constraints>
-                                <string key="text">Participar de um evento deste porte é o sonho de qualquer desenvolvedor iOS, e o meu não é diferente.  Poder ter a oportunidade de assistir as palestras e conversar com outras pessoas do ramo irá me ajudar a ampliar minhas fronteiras de conhecimento. WWDC é muito mais do que o epicentro de mudanças, é o epicentro de inovações tecnológicas e de troca de experiências.</string>
+                                <mutableString key="text">Attend an event of this size is the dream of every iOS developer and mine as well. Having the opportunity to watch the lectures and talk to others in the industry will help me broaden my knowledge range. The WWDC is much more than the epicenter of technological innovations and experience exchanges.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" red="0.77021352442761393" green="0.25023362089897988" blue="0.025434061215359158" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>

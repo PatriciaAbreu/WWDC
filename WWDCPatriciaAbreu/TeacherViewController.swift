@@ -32,24 +32,4 @@ class TeacherViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
-    override func viewWillAppear(animated: Bool) {
-        //        AlertSheet
-        let alerta: UIAlertController = UIAlertController(title: "Teacher", message: "Você consegue se lembrar do nome de uma professor(a) que marcou sua formação?", preferredStyle: .ActionSheet)
-        
-        let acaoS: UIAlertAction = UIAlertAction(title: "Sim", style: .Default) { action -> Void in
-            
-            self.labelText.text = "Impossível não lembrar né?! Sempre temos uma professor(a) que nos marcou, seja pela aula, pela matéria ou porque ela era legal."
-        }
-        
-        let acaoN: UIAlertAction = UIAlertAction(title: "Não", style: .Default) { (action) -> Void in
-            
-            self.labelText.text = "Por mais que ache que nenhum professor te marcou, pode ter certeza que está errado, pois se está conseguindo ler o que está escrito nesse app no mínimo um professor te ajudou nisso."
-        }
-        
-        alerta.addAction(acaoS)
-        alerta.addAction(acaoN)
-        
-        self.presentViewController(alerta, animated: true, completion: nil)
-
-    }
 }
